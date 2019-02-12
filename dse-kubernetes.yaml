@@ -7,7 +7,7 @@ spec:
     matchLabels:
       app: dse
   serviceName: "dse"
-  replicas: 
+  replicas: 2
   podManagementPolicy: OrderedReady
   updateStrategy:
     type: RollingUpdate
