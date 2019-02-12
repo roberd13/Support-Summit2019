@@ -20,7 +20,7 @@ spec:
         fsGroup: 999
       containers:
       - name: dse
-        image: datastax/dse-server:6.7.0-openjdk8
+        image: datastax/dse-server:6.7.0
         imagePullPolicy: IfNotPresent
         resources:
           requests:
